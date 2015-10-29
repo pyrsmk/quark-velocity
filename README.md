@@ -1,4 +1,4 @@
-quark-velocity 0.1.0
+quark-velocity 0.1.1
 ====================
 
 [Velocity](http://julian.com/research/velocity) module for [quark](https://github.com/pyrsmk/quark).
