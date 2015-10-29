@@ -9,10 +9,8 @@
   },
   "main": "src/quark-velocity.js",
   "keywords": [
-    "dom",
-    "css",
-    "event",
-    "events",
+    "animation",
+    "animate",
     "quark"
   ],
   "license": "MIT",
