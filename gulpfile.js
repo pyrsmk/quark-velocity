@@ -5,7 +5,8 @@ var fs = require('fs'),
 	replace = require('gulp-replace'),
 	merge = require('merge2'),
 	shell = require('gulp-shell'),
-	concat = require('gulp-concat');
+	concat = require('gulp-concat'),
+	rename = require('gulp-rename');
 
 var version = fs.readFileSync('src/quark-velocity.js', {encoding:'utf8'}).match(/^\/\*\! [\w-]+ ([0-9.]+)/)[1];
 
@@ -40,8 +41,10 @@ gulp.task('build', ['version'], function() {
 	);
 	streams.add(
 		gulp.src( ['./node_modules/velocity-animate/velocity.js', './src/quark-velocity.js'] )
+			.pipe( concat('quark-velocity.js') )
+			.pipe( gulp.dest('.') )
 			.pipe( uglify() )
-			.pipe( concat('quark-velocity.min.js') )
+			.pipe( rename('quark-velocity.min.js') )
 			.pipe( gulp.dest('.') )
 	);
 	return streams;

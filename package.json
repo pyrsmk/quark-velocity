@@ -1,13 +1,13 @@
 {
   "name": "quark-velocity",
   "description": "Velocity for quark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Aurélien Delogu <pyrsmk@dreamysource.fr> (http://dreamysource.fr)",
   "repository": {
     "type": "git",
     "url": "https://github.com/pyrsmk/quark-velocity.git"
   },
-  "main": "src/quark-velocity.js",
+  "main": "quark-velocity.js",
   "keywords": [
     "animation",
     "animate",
@@ -22,6 +22,7 @@
     "gulp": "^3.8.11",
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.3",
     "gulp-shell": "^0.4.1",
     "gulp-uglify": "^1.2.0",
