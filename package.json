@@ -1,7 +1,7 @@
 {
   "name": "quark-velocity",
   "description": "Velocity for quark",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Aurélien Delogu <pyrsmk@dreamysource.fr> (http://dreamysource.fr)",
   "repository": {
     "type": "git",

@@ -3884,7 +3884,7 @@ return function (global, window, document, undefined) {
 /* The CSS spec mandates that the translateX/Y/Z transforms are %-relative to the element itself -- not its parent.
 Velocity, however, doesn't make this distinction. Thus, converting to or from the % unit with these subproperties
 will produce an inaccurate conversion value. The same issue exists with the cx/cy attributes of SVG circles and ellipses. */
-/*! quark-velocity 0.1.2 (https://github.com/pyrsmk/quark-velocity) */
+/*! quark-velocity 0.1.3 (https://github.com/pyrsmk/quark-velocity) */
 
 quark.$._nodeMethods.animate = function(properties, options) {
 	Velocity(this.node, properties, options);

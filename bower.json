@@ -1,0 +1,27 @@
+{
+  "name": "quark-velocity",
+  "description": "Velocity module for quark",
+  "main": "quark-velocity.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pyrsmk/quark-velocity.git"
+  },
+  "keywords": [
+    "micro",
+    "framework",
+	"ready"
+  ],
+  "authors": ["Aurélien Delogu"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrsmk/quark-velocity/issues"
+  },
+  "ignore": [
+    ".git/",
+    ".gitignore",
+    "nodes_modules/",
+    "tests/",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
