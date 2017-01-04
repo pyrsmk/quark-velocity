@@ -1,7 +1,7 @@
 {
   "name": "quark-velocity",
   "description": "Velocity module for quark",
-  "main": "quark-velocity.js",
+  "main": "lib/quark-velocity.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pyrsmk/quark-velocity.git"
